@@ -1,0 +1,43 @@
+.login {
+    background: #1a948a;
+    text-align: center;
+}
+
+.login-form {
+    text-align: center;
+    margin-top: 20%;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 35%;
+    border-radius: 1%;
+}
+body {
+    background-color: black;
+}
+
+.login-btn {
+    background-color: #00ff62;
+    border: solid 1px #ffffff00;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 1vh;
+}
+
+.login-input {
+    background-color: azure;
+    border: solid #ffffff00;
+}
+.login-input:hover {
+    background-color: azure;
+    border: solid #ffffff00;
+    border-radius: 10%;
+}
+.login-text {
+    color: azure;
+    font-size: 20px;
+}
+
+.login-text-one {
+    color: azure;
+    font-size: 40px;
+}

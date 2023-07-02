@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/butons.css">
+    <link rel="stylesheet" href="/styles/tables.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>ADMİN</title>
+</head>
+<body>
+  <h1 class="tablo-text-uc"></h1>
+<div class="body">
+  <h1 class="tablo-text-ıkı">Dosya Yükle</h1>
+  <div class="files">
+    <div class="uploads">
+    <div class="add-file">
+        <form action="/storage/uploads/file" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <button type="submit" class="send-btn"><i style="height: 10%; width: 10%;" class="bx bx-send"></i></button>       
+          </form>
+    </div>
+    </div>
+</div>
+<h1 class="tablo-text">Dosylara tablesi </h1>
+<div class="table">
+  <table>
+    <thead>
+      <tr>
+        <th class="tbl-one">sil</th>
+        <th class="tbl-two">indır</th>
+        <th class="tbl-three">adı</th>
+        <th class="tbl-four">boyud</th>
+        <th class="tbl-five">doğuş tarihi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% files.forEach(file => { %>
+        <tr>
+          <td class="tbl-one">    
+            <form class="" method="post" action="/storage/delete/<%= file.delete %>" >
+                 <button type="submit" class="delete-btn">Sil</button>
+             </form>
+         </td>
+         <td>    
+            <form class="" method="post" action="/storage/dowland/<%= file.delete %>" >
+                 <button type="submit" class="install-btn">İndir</button>
+             </form>
+         </td>
+          <td><%= file.name %></td>
+         
+          <td><%= file.size %></td>
+          <td  class="tbl-five"><%= file.created %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+
+</div>
+</body>
+</html>

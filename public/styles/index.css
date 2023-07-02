@@ -1,0 +1,21 @@
+body {
+    background: azure;
+}
+.tablo-text {
+    color: #000000;
+    font-size: 5vh;
+    margin-left: 60vh;
+}
+.tablo-text:hover {
+    color: gray;
+}
+
+.tablo-text-ıkı {
+    color: #000000;
+    font-size: 7vh;
+    margin-left: 60vh;
+}
+.tablo-text-ıkı:hover {
+    color: gray;
+}
+

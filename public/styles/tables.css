@@ -1,0 +1,8 @@
+.table {
+    margin-left: 50vh;
+    background-color: azure;
+}
+
+td,th {
+    width: 20vh; 
+}

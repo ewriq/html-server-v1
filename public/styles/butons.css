@@ -1,0 +1,59 @@
+.delete-btn {
+    border-radius: 10%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    background: rgba(255, 1, 1, 0.774);
+    width: 60px;
+    height: 40px;
+}
+
+.delete-btn:hover {
+    border-radius: 10%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    background: rgba(255, 80, 80, 0.774);
+    width: 45px;
+    height: 45px;
+}
+
+.install-btn {
+    border-radius: 10%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    background: rgb(0, 255, 85);
+    width: 60px;
+    height: 40px;
+    margin-left: 3vh;
+}
+
+
+.install-btn:hover {
+    border-radius: 10%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    background: rgb(0, 255, 85);
+    width: 45px;
+    height: 45px;
+}
+.send-btn {
+    border-radius: 10%;
+    border: 1px solid #ffffff00;
+    background: #00000000;
+    width: 40px;
+    height: 40px;
+}
+.send-btn:hover {
+    border: 1px solid #ffffff00;
+    background: #32ffa0;
+    color: #ffffff;
+}
+
+
+.add-file {
+    background-color: azure;
+    margin-top: 5%;
+    width: 60vh;
+    border: 10px solid azure;
+    border-radius: 5vh;
+    margin-left: 50vh;
+}
